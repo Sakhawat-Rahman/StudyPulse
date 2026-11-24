@@ -1,0 +1,41 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# PyInstaller & Build Outputs
+build/
+dist/
+*.spec.bak
+
+# Standalone Executables & Large Binaries
+# (Compiled binaries should be distributed via GitHub Releases)
+*.exe
+*.dll
+*.winmd
+StudyPulse.exe
+
+# Local AI Model Weights & LLM Binaries
+# (SmolLM2 GGUF weights ~270MB and llama C++ binaries exceed GitHub 100MB file limit)
+models/*.gguf
+models/*.bin
+models/*.exe
+models/*.dll
+!models/README.md
+!models/.gitkeep
+
+# Scratchpads & Local Secrets / User State
+scratch/
+spotify_auth.json
+studypulse_state.json
+*.local.json
+.env
+.env.local
+.venv/
+env/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

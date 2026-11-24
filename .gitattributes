@@ -1,0 +1,4 @@
+# Exclude bundled single-file HTML frontend, documentation, and showcase PNGs from GitHub Linguist language bar
+*.html linguist-detectable=false
+docs/** linguist-documentation
+showcase_pitch_deck/** linguist-vendored
